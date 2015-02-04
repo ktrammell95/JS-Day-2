@@ -1,0 +1,1 @@
+Really hard stuff that I can understand if I read it but starting from scratch to write it is nearly impossible at this time.
