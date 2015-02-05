@@ -23,17 +23,19 @@ getMatch(alphabet, vowels);
 
 function getVowels(letter) {
   
-    for (vIndex = 0; vIndex < vowels.length; vIndex++) {
-        if (letter == vowels[vIndex]) {
-          return ("vowel");
-          } 
-    }
-    return "consonant";
+  for (vIndex = 0; vIndex < vowels.length; vIndex++) {
+      if (letter == vowels[vIndex]) {
+        return ("vowel");
+        } 
+  }
+  return "consonant";
 }
 
-//steps: 
-    //check letter entered to arrays
-    //if letter is on alphabet and vowel array return a true reponse
-    //if letter is only on alphabet array return false
-    //if letter is in alphabet & vowels = vowel
-    //if letter is not in both return consonant
+//need to print out full alphabet
+
+  
+for (aIndex = 0; aIndex < alphabet.length; aIndex++) {
+    console.log (alphabet[aIndex]);
+
+}
+    
