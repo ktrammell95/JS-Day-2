@@ -189,15 +189,3 @@ function rot13(sentence) {
 
     return cipheredCode;
 }
-
-
-
-
-
-
-
-
-
-
-return cipheredCode
-}
